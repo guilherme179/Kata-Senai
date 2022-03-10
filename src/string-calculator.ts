@@ -11,7 +11,6 @@ export function stringCalculator(numeros:string){
     }
 
     let soma = num.reduce((previousValue, currentValue) =>  previousValue + currentValue, initialValue)
-
     return soma
 }
 
